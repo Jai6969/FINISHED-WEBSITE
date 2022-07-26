@@ -1,0 +1,72 @@
+h1{
+    color: #FF0033;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: #99FF66;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+body{
+    background-color: #6087FF;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu{
+    margin-right: 30px;
+    }
+
+.menu a{
+    margin-left: 20px;
+}
+
+a:link{
+    color:#26ed65
+}
+
+a:visited{
+    color:#FF0033
+}
+
+.item{
+    position:relative
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    opacity:0
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.33
+}
